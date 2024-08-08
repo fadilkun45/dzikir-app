@@ -10,7 +10,7 @@ export default function Home() {
 
   const increment = () => {
       if(jumlah === 33){
-        setJumlah(0)
+        setJumlah(1)
         setPerulangan(perulangan + 1)
       }else{
         setJumlah(jumlah + 1)
